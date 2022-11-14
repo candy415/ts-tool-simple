@@ -1,0 +1,10 @@
+# default
+node_modules
+/dist
+
+# misc
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
