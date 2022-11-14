@@ -11,7 +11,7 @@
     "build": "rollup -c",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "keywords": ["typescript", "工具库"],
   "author": "echo",
