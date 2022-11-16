@@ -22,6 +22,7 @@ npm install ts-tool-simple@latest // 安装最新版
 - `getBirthdaySex` 根据身份证获取出生日期和性别
 - `session.js` 本地存储封装
 - `validate.js` 表单项验证
+- `urlGetParam` 获取url上的值
 
 ## 使用
 ```js

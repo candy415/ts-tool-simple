@@ -4,7 +4,7 @@
  * @param name
  */
  
-export const urlGetParam = (name: string): string => {
+const urlGetParam = (name: string): string => {
   const reg = new RegExp('[?&]' + name + '=([^&#]*)', 'i');
   const res = window.location.href.match(reg);
   if (res && res.length > 1) {
@@ -12,3 +12,5 @@ export const urlGetParam = (name: string): string => {
   }
   return '';
 }
+
+export default urlGetParam

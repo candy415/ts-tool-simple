@@ -1,17 +1,17 @@
 /*
  * @Author: huwanfei
  * @Date: 2022-11-14 11:19:01
- * @LastEditTime: 2022-11-14 14:39:22
+ * @LastEditTime: 2022-11-16 10:39:29
  * @LastEditors: huwanfei
  * @Description:  getDataType测试示例
- * @FilePath: /ts-tool-simple/test/getDataType.test.ts
+ * @FilePath: /组件库/ts-tool-simple/test/getDataType.test.ts
  */
 import { getDataType } from "../src";
 
 describe('getDataType', () => {
   const array = [{
     target: 2,
-    type: 'string'
+    type: 'number'
   },
   {
     target: {a:1},
